@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-primaria: #561C24;
+    --cor-primaria: #223c63;
     --cor-secundaria: #E8D8C4;
-    --cor-terciaria: #C7B7A3;
+    --cor-terciaria: #0585fd;
     --cor-hover: #9290C3;
     --cor-azul: #161A30;
 
@@ -19,12 +19,14 @@
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-primaria);
+    background-image: url(/assets/qq9rnxx4sg971.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
     color: var(--cor-secundaria);
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 35%;
 
 }
 
@@ -37,8 +39,9 @@ body {
     font-family: var(--font-primaria);
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
     text-decoration: none;
+
 }
 
 .titulo-destaque {
@@ -56,7 +59,7 @@ body {
     width: 50%;     
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 28px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -111,13 +114,14 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 50%;
+    width: 30%;
+    border-radius: 300px;
 }
 
 .rodape {
     padding: 24px;
     color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
     text-align: center;
     font-family: var(--font-primaria);
     font-size: 1.5rem;

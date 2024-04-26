@@ -1,0 +1,16 @@
+body {
+    background: chocolate;
+    display: flex; 
+}
+
+
+header {
+    background: green;
+}
+
+section{
+    display: flex;
+    width: 90px;
+    height: 80px;
+    columns: 89px;
+}
